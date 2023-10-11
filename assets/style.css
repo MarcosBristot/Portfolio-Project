@@ -1,0 +1,25 @@
+/* colors:
+#0F0F0F - Preto 60%
+#D5D5D5 - Branco 30%
+#0088FF - Azul 10%
+*/
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend', sans-serif;
+}
+body{
+    background-color: #0f0f0f;
+    font-family: 'Lexend', sans-serif;
+    width: 100%;
+    color: #D5D5D5
+}
+
+header{
+    font-weight: 700;
+    color: #0088FF;
+    font-size: 18px;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
