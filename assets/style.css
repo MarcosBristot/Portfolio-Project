@@ -1,25 +1,109 @@
-/* colors:
-#0F0F0F - Preto 60%
-#D5D5D5 - Branco 30%
-#0088FF - Azul 10%
-*/
 *{margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lexend', sans-serif;
 }
+
 body{
-    background-color: #0f0f0f;
+    background-color: #ffffff;
     font-family: 'Lexend', sans-serif;
     width: 100%;
-    color: #D5D5D5
+    color: #D5D5D5;
+    display: flex;
+    flex-direction: column;
 }
 
 header{
-    font-weight: 700;
-    color: #0088FF;
-    font-size: 18px;
-    padding-left: 100px;
-    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 800;
+    color: #000000;
+    font-size: 24px;
+    padding: 30px 80px;
 }
 
+#BristotHeader {
+    color: #1D70A2;
+}
+#PontoVirgulaHeader { color: #1D70A2;}
+
+a { color: inherit; } 
+
+.BarraDeNavegação{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px; /* Adicione espaço interno à barra de navegação */
+}
+
+.BarraDeNavegação a {
+    text-decoration: none;
+    padding-left: 120px;
+}
+
+h1 {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 113.9%; /* 91.12px */
+    letter-spacing: -5.6px;
+    padding-top: 120px;
+    padding-left: 80px;
+}
+
+#MarcosBody{
+    color: #2892D7;
+}
+
+p{
+    width: 700px;
+    height: 140px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: justify;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 60px;
+    padding-left: 80px;
+}
+
+#QuadradoAzule{
+    width: 600px;
+    height: 601px;
+    transform: rotate(5deg);
+    flex-shrink: 0;
+    fill: #6DAEDB;
+    position: absolute;
+    margin-left: 708px;
+    margin-top: 220px;
+}
+
+#ImagemInicial{
+    width: 563px;
+    height: 742px;
+    flex-shrink: 0;
+    position: absolute;
+    margin-left: 778px;
+    margin-top: 20px;
+}
+
+.RedesSociais {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    flex-shrink: 0;
+    margin-left: 80px;
+    margin-top: 620px
+}
+
+.RedesSociais #Instagram, #Whatsapp, #Linkedin, #Github{
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    margin-right: 45px;
+}
