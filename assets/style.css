@@ -204,28 +204,6 @@ h5 {
     letter-spacing: -2.8px;
     padding: 0 0 100px 0;
 }
-
-.flex{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.box{
-    width: 420px;
-    height: 240px;
-    flex-shrink: 0;
-    border-radius: 36px;
-    background-image: url(https://i.pinimg.com/564x/40/42/8e/40428e12a2f76bca14a2b035805ec623.jpg)
-}
-.m-8{
-    margin: 0 8px;
-}
-.linha2{
-    margin-top: 5px;
-}
-.box{
-    text-align: center;
-}
 h6 {
     text-align: center;
     margin-top: 100px;
@@ -238,37 +216,10 @@ h6 {
     letter-spacing: -2.8px;
     padding: 0 0 50px 0;
 }
-
-.Contatotexto{
-    margin-left: auto;
-    margin-right: auto;
-    width: 1000px;
-    color: #070707;
-    font-family: 'Lexend', sans-serif;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    padding: 0 0 60px 0;
-    display: table;
-}
-
 .Disponivel{
     margin-left: auto;
     margin-right: auto;
     width: 1000px;
-    color: #070707;
-    font-family: 'Lexend', sans-serif;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    padding: 0 0 100px 0;
-    display: table;
-}
-.Local{
-    margin-left: 23.5%;
-    margin-right: auto;
     color: #070707;
     font-family: 'Lexend', sans-serif;
     font-size: 25px;
