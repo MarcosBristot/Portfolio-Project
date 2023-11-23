@@ -132,7 +132,12 @@ h3 {
     line-height: 113.9%; /* 45.56px */
     letter-spacing: -2.8px;
 }
+.ImagemPerfil{
+    position: absolute;
+    left: 20%;
+    margin-top: 7%;
 
+}
 .SubtituloSobre{
     color: #070707;
     font-family: 'Lexend', sans-serif;
@@ -162,19 +167,9 @@ h3 {
     position: absolute;
 }
 
-#QuadradoAzuleFoto{
-    width: 300px;
-    height: 301px;
-    transform: rotate(5deg);
-    flex-shrink: 0;
-    fill: #6DAEDB;
-    position: absolute;
-    margin-left: 15%;
-    margin-top: 50px;
-}
 h4 {
     text-align: center;
-    margin-top: 650px;
+    margin-top: 450px;
     color: #6DAEDB;
     font-family: 'Lexend', sans-serif;
     font-size: 40px;
@@ -220,7 +215,7 @@ h5 {
     height: 240px;
     flex-shrink: 0;
     border-radius: 36px;
-    background: #D9D9D9;
+    background-image: url(https://i.pinimg.com/564x/40/42/8e/40428e12a2f76bca14a2b035805ec623.jpg)
 }
 .m-8{
     margin: 0 8px;
@@ -271,46 +266,15 @@ h6 {
     padding: 0 0 100px 0;
     display: table;
 }
-
-.TelefoneIcone {
-    width: 31px;
-    height: 31px;
-    flex-shrink: 0;
-}
-
-.EmailIcone {
-
-    width: 29px;
-    height: 23px;
-    flex-shrink: 0;
-    display: flex;
-}
-
-.telefone{
+.Local{
+    margin-left: 23.5%;
+    margin-right: auto;
     color: #070707;
     font-family: 'Lexend', sans-serif;
     font-size: 25px;
     font-style: normal;
-    font-weight: 500;
-    line-height: 113.9%; /* 28.475px */
-    letter-spacing: -1.75px;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0 0 100px 0;
     display: table;
-    position: relative;
-    position: flex;
-    margin-left: 25%;
-    justify-content: space-evenly;
-}
-.email{
-    color: #070707;
-    font-family: 'Lexend', sans-serif;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 113.9%; /* 28.475px */
-    letter-spacing: -1.75px;
-    position: flex;
-}
-
-.contato{
-
 }
